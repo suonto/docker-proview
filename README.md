@@ -2,6 +2,13 @@
 
 ```
 docker build -t proview .
+```
+If build fails you can also download it:
+```
+docker pull suonto/proview
+```
+
+```
 docker run -d --name proview -p 5900:5900 proview
 ```
 
